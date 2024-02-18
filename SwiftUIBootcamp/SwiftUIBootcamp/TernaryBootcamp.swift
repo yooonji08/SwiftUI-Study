@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/// #24 How to use Ternary Operators in SwiftUI | Bootcamp
 struct TernaryBootcamp: View {
     @State var  isStartingState: Bool = false
     

@@ -14,6 +14,7 @@
 		E750EE5E2B7E6550004F6F93 /* BindingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E750EE5D2B7E6550004F6F93 /* BindingBootcamp.swift */; };
 		E790FA242B81A19000EA38C6 /* ConditionalBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E790FA232B81A19000EA38C6 /* ConditionalBootcamp.swift */; };
 		E790FA262B81C3B300EA38C6 /* TernaryBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E790FA252B81C3B300EA38C6 /* TernaryBootcamp.swift */; };
+		E790FA282B81CB3600EA38C6 /* ModelBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E790FA272B81CB3600EA38C6 /* ModelBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		E750EE5D2B7E6550004F6F93 /* BindingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingBootcamp.swift; sourceTree = "<group>"; };
 		E790FA232B81A19000EA38C6 /* ConditionalBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalBootcamp.swift; sourceTree = "<group>"; };
 		E790FA252B81C3B300EA38C6 /* TernaryBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TernaryBootcamp.swift; sourceTree = "<group>"; };
+		E790FA272B81CB3600EA38C6 /* ModelBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				E750EE5D2B7E6550004F6F93 /* BindingBootcamp.swift */,
 				E790FA232B81A19000EA38C6 /* ConditionalBootcamp.swift */,
 				E790FA252B81C3B300EA38C6 /* TernaryBootcamp.swift */,
+				E790FA272B81CB3600EA38C6 /* ModelBootcamp.swift */,
 			);
 			path = SwiftUIBootcamp;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 				E750EE522B7E5936004F6F93 /* ContentView.swift in Sources */,
 				E790FA242B81A19000EA38C6 /* ConditionalBootcamp.swift in Sources */,
 				E750EE5E2B7E6550004F6F93 /* BindingBootcamp.swift in Sources */,
+				E790FA282B81CB3600EA38C6 /* ModelBootcamp.swift in Sources */,
 				E750EE502B7E5936004F6F93 /* SwiftUIBootcampApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
