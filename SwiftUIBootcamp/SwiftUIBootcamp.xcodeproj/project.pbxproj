@@ -12,6 +12,7 @@
 		E750EE542B7E5937004F6F93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E750EE532B7E5937004F6F93 /* Assets.xcassets */; };
 		E750EE572B7E5937004F6F93 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E750EE562B7E5937004F6F93 /* Preview Assets.xcassets */; };
 		E750EE5E2B7E6550004F6F93 /* BindingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E750EE5D2B7E6550004F6F93 /* BindingBootcamp.swift */; };
+		E790FA242B81A19000EA38C6 /* ConditionalBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E790FA232B81A19000EA38C6 /* ConditionalBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		E750EE532B7E5937004F6F93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E750EE562B7E5937004F6F93 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E750EE5D2B7E6550004F6F93 /* BindingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingBootcamp.swift; sourceTree = "<group>"; };
+		E790FA232B81A19000EA38C6 /* ConditionalBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				E750EE532B7E5937004F6F93 /* Assets.xcassets */,
 				E750EE552B7E5937004F6F93 /* Preview Content */,
 				E750EE5D2B7E6550004F6F93 /* BindingBootcamp.swift */,
+				E790FA232B81A19000EA38C6 /* ConditionalBootcamp.swift */,
 			);
 			path = SwiftUIBootcamp;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E750EE522B7E5936004F6F93 /* ContentView.swift in Sources */,
+				E790FA242B81A19000EA38C6 /* ConditionalBootcamp.swift in Sources */,
 				E750EE5E2B7E6550004F6F93 /* BindingBootcamp.swift in Sources */,
 				E750EE502B7E5936004F6F93 /* SwiftUIBootcampApp.swift in Sources */,
 			);
