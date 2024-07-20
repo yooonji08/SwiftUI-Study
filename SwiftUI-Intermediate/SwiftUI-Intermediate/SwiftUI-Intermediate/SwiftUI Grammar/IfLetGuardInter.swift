@@ -11,7 +11,7 @@ struct IfLetGuardInter: View {
     
     // MARK: - PROPERTY
     @State var displayText: String? = nil
-    @State var currentUserID: String?
+    @State var currentUserID: String? = "yoonji"
     
     // MARK: - BODY
     var body: some View {
@@ -29,7 +29,8 @@ struct IfLetGuardInter: View {
             } //: VSTACK
             .navigationTitle("Optional 처리하기")
             .onAppear { // View가 초기화 될 때 실행
-                loadData()
+                //loadData()
+                loadData2()
             }
         } //: NAVIGATION
     }
@@ -49,7 +50,15 @@ struct IfLetGuardInter: View {
     
     // Guard let 사용
     func loadData2() {
-        
+        // nil인 경우 에러 처리 및 return 처리
+        guard let userID = currentUserID else {
+            displayText = "Error, 로그인이 되지 않았습니다."
+            return
+        }
+        // else문에 걸리지 않았다면, nil값이 아니라는 뜻이므로 string값 출력
+        DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+            displayText = "데이터를 성공적으로 가져왔습니다.\n당신의 이름은\(userID)"
+        }
     }
 }
 
