@@ -15,6 +15,7 @@
 		E7C24D942C4BBDD600D05937 /* SwiftUI_Intermediate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E7C24D922C4BBDD600D05937 /* SwiftUI_Intermediate.xcdatamodeld */; };
 		E7C24DA02C4BBEDC00D05937 /* IfLetGuardInter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C24D9F2C4BBEDC00D05937 /* IfLetGuardInter.swift */; };
 		E7C24DA22C4F879900D05937 /* FunctionsInter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C24DA12C4F879900D05937 /* FunctionsInter.swift */; };
+		E7C24DAC2C51D8C000D05937 /* BackgroundThreadInter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C24DAB2C51D8C000D05937 /* BackgroundThreadInter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		E7C24D932C4BBDD600D05937 /* SwiftUI_Intermediate.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftUI_Intermediate.xcdatamodel; sourceTree = "<group>"; };
 		E7C24D9F2C4BBEDC00D05937 /* IfLetGuardInter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfLetGuardInter.swift; sourceTree = "<group>"; };
 		E7C24DA12C4F879900D05937 /* FunctionsInter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionsInter.swift; sourceTree = "<group>"; };
+		E7C24DAB2C51D8C000D05937 /* BackgroundThreadInter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundThreadInter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 			children = (
 				E7C24D9F2C4BBEDC00D05937 /* IfLetGuardInter.swift */,
 				E7C24DA12C4F879900D05937 /* FunctionsInter.swift */,
+				E7C24DAB2C51D8C000D05937 /* BackgroundThreadInter.swift */,
 			);
 			path = "SwiftUI Grammar";
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7C24DAC2C51D8C000D05937 /* BackgroundThreadInter.swift in Sources */,
 				E7C24DA02C4BBEDC00D05937 /* IfLetGuardInter.swift in Sources */,
 				E7C24D912C4BBDD600D05937 /* Persistence.swift in Sources */,
 				E7C24DA22C4F879900D05937 /* FunctionsInter.swift in Sources */,
